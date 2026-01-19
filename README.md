@@ -1,63 +1,119 @@
-# Intelligent-Resume-Screening-System
+# 🧠 Intelligent Resume Screening System
 
-🔍 Overview
+### AI-Powered Resume Shortlisting Using Machine Learning & NLP
 
-A system that:
+## 📌 Project Overview
 
-Takes resume PDFs from users
+The **Intelligent Resume Screening System** is a machine learning–based application designed to automate the resume shortlisting process. It analyzes resumes using **Natural Language Processing (NLP)** techniques and predicts candidate suitability based on job requirements, reducing manual effort and bias in recruitment.
 
-Extracts text
+This project demonstrates the practical application of **AI, NLP, and data science** in HR technology.
 
-Matches resumes with job descriptions
+---
 
-Outputs match score + skill gaps
+## 🚀 Features
 
-🧠 Model
+* 📄 Resume text extraction and preprocessing
+* 🧹 Text cleaning (stopwords removal, lemmatization)
+* 🔍 Feature extraction using TF-IDF
+* 🤖 Machine Learning model for resume classification
+* 📊 Prediction of candidate relevance
+* ⚡ Fast and scalable screening process
 
-TF-IDF + Logistic Regression (baseline)
-SDG (ML)
+---
 
-BERT (pre-trained) for semantic similarity (advanced)
+## 🛠️ Tech Stack
 
-📊 EDA
+* **Programming Language:** Python
+* **Libraries:**
 
-Resume length distribution
+  * NumPy
+  * Pandas
+  * Scikit-learn
+  * NLTK / spaCy
+  * Matplotlib / Seaborn
+* **Environment:** Google Colab / Jupyter Notebook
 
-Skill frequency analysis
+---
 
-Job vs Resume keyword overlap
+## 🧠 Machine Learning Workflow
 
-📂 Dataset
+1. Data Collection (Resume dataset)
+2. Text Preprocessing
+3. Feature Extraction (TF-IDF Vectorization)
+4. Model Training
+5. Model Evaluation
+6. Resume Prediction
 
-Resume Dataset (Kaggle):
-👉 https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+---
 
-🛠 Skills Demonstrated
+## 📂 Project Structure
 
-NLP
+```
+📦 Intelligent_Resume_Screening_System
+ ┣ 📜 Intelligent_Resume_Screening_System.ipynb
+ ┣ 📜 README.md
+ ┗ 📂 dataset (optional)
+```
 
-Text preprocessing
+---
 
-Transformers (BERT)
+## ▶️ How to Run
 
-Model comparison
+1. Clone the repository
 
-PDF parsing
+```bash
+git clone https://github.com/your-username/intelligent-resume-screening-system.git
+```
 
-Streamlit UI
+2. Open the notebook
 
-🖥 Frontend (Streamlit)
+```bash
+jupyter notebook Intelligent_Resume_Screening_System.ipynb
+```
 
-User uploads:
+3. Run all cells to train and test the model
 
-Resume PDF
+---
 
-Job description text
+## 📈 Results
 
-Output:
+* Efficient resume classification
+* Reduced manual screening time
+* Improved consistency in candidate shortlisting
 
-Match %
+---
 
-Missing skills
+## 🌱 Future Improvements
 
-Recommendation
+* Deep Learning (LSTM / BERT-based resume ranking)
+* Web application using Flask or Streamlit
+* Multi-job role classification
+* Resume scoring and ranking system
+
+---
+
+## 🎯 Use Cases
+
+* HR departments
+* Recruitment agencies
+* Job portals
+* Campus hiring systems
+
+---
+
+## 👨‍🎓 Author
+
+**Sakuna Sankalpa**
+*Data Science & Artificial Intelligence Undergraduate*
+
+🔗 GitHub: [https://github.com/your-username](https://github.com/your-username)
+
+---
+
+## ⭐ If you like this project
+
+Give it a **star ⭐** and feel free to fork and improve!
+
+---
+
+> *“Automating hiring with intelligence, not bias.”*
