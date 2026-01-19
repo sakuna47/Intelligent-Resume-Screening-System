@@ -106,7 +106,7 @@ jupyter notebook Intelligent_Resume_Screening_System.ipynb
 **Sakuna Sankalpa**
 *Data Science & Artificial Intelligence Undergraduate*
 
-🔗 GitHub: [https://github.com/your-username](https://github.com/your-username)
+🔗 GitHub: [https://github.com/your-username](https://github.com/sakuna47)
 
 ---
 
